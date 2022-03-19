@@ -37,4 +37,7 @@ Nothing yet…
 * Belarusian State Agrarian Technical University
 * HTML5, CSS3 on the code-basics.com
 
-## 
+## Languages:
+English A1(A2 in progress)
+
+
