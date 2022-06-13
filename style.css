@@ -21,6 +21,30 @@ body {
     margin: 0 auto;
 }
 
+.header {
+    background-color: rgb(174, 175, 101);
+}
+
+.navigate-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.navigate-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    /*font-weight: 300;*/
+}
+
+.navigate-link {
+    color: black;
+    transition: 0.5;
+}
+
 .footer {
     background-color: rgb(174, 175, 101);
     padding: 20px;
