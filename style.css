@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(24, 61, 90);
+    /* overflow-y: hidden; */
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(174, 175, 101);
+}
+
+.navigate-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.navigate-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigate-link {
+    color: black;
+    transition: 0.5;
+}
+
+.navigate-link:hover {
+    color: #5c1d1d;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section{
+    width: calc(50% - 20px);
+    border-bottom: 1px solid burlywood;
+    padding: 15px
+}
+
+.section-lan, .section-edu {
+    border-bottom: none;
+}
+
+.section-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(104, 73, 28);
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px;
+    border-bottom: 3px solid rgb(214, 213, 153);
+}
+
+.img-profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}   
+
+.title-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-size: 32px;
+    color: rgb(104, 73, 28);
+    letter-spacing: 8px;
+    font-weight: 400;
+}
+
+.section-subtitle {
+    letter-spacing: 3px;
+    color: rgb(104, 73, 28);
+    font-weight: 300;
+}
+
+.section-list {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+}
+
+.section-list-1 {
+    padding-left: 20px;
+    list-style: circle;
+    line-height: 1.8;
+}
+
+.section-list-contacts {
+    padding-left: 30px;
+    background-image: url("./assets/icons/telegram.png");
+    background-position: left, center;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.section-list-mail {
+    padding-left: 30px;
+    background-image: url("./assets/icons/email.png");
+    background-position: left, center;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.section-list-git {
+    padding-left: 30px;
+    background-image: url("./assets/icons/github.png");
+    background-position: left, center;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.section-list-dis {
+    padding-left: 30px;
+    background-image: url("./assets/icons/discord.png");
+    background-position: left, center;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.footer {
+    background-color: rgb(174, 175, 101);
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-git {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.git-icon {
+    margin-right: 10px;
+}
+
+.year {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
